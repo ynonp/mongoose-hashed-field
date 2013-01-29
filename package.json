@@ -1,0 +1,11 @@
+{
+    "name":"mongoose-hashed-plugin",
+    "version":"0.0.1",
+    "private":false,
+    "main":"src/hashedField.js",
+    "dependencies":{
+        "bcrypt":"~0.7.3",
+        "mongoose": "~1.2.8"
+    }
+
+}
