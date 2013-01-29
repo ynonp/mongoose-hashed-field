@@ -1,11 +1,16 @@
 {
     "name":"mongoose-hashed-plugin",
-    "version":"0.0.1",
+    "version":"0.0.2",
     "private":false,
+    "author": "ynonp <ynon@ynonperek.com>",
+    "homepage" : "https://github.com/ynonp/mongoose-hashed-field",
+    "keywords": ["mongoose", "plugins", "crypt", "password"],
+    "repository": {"type":"git", "url": "git://github.com/ynonp/mongoose-hashed-field.git"},
+    "description": "mongoose plugins:hash password fields",
     "main":"src/hashedField.js",
     "dependencies":{
         "bcrypt":"~0.7.3",
         "mongoose": "~1.2.8"
-    }
+    },
 
 }
