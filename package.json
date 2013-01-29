@@ -11,6 +11,5 @@
     "dependencies":{
         "bcrypt":"~0.7.3",
         "mongoose": "~1.2.8"
-    },
-
+    }
 }
