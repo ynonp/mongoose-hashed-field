@@ -14,7 +14,7 @@ Take this schema as example:
 
 ```javascript
 var mongoose    = require('mongoose');
-var hashedField = require('../src/hashedField.js');
+var hashedField = require('mongoose-hashed-plugin');
 
 var UserSchema = new mongoose.Schema({
   name: String

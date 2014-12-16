@@ -1,15 +1,23 @@
 {
-    "name":"mongoose-hashed-plugin",
-    "version":"0.0.3",
-    "private":false,
-    "author": "ynonp <ynon@ynonperek.com>",
-    "homepage" : "https://github.com/ynonp/mongoose-hashed-field",
-    "keywords": ["mongoose", "plugins", "crypt", "password"],
-    "repository": {"type":"git", "url": "git://github.com/ynonp/mongoose-hashed-field.git"},
-    "description": "mongoose plugins:hash password fields",
-    "main":"src/hashedField.js",
-    "dependencies":{
-        "bcrypt":"~0.7.3",
-        "mongoose": "~1.2.8"
-    }
+  "name": "mongoose-hashed-plugin",
+  "version": "0.0.4",
+  "private": false,
+  "author": "ynonp <ynon@ynonperek.com>",
+  "homepage": "https://github.com/ynonp/mongoose-hashed-field",
+  "keywords": [
+    "mongoose",
+    "plugins",
+    "crypt",
+    "password"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ynonp/mongoose-hashed-field.git"
+  },
+  "description": "mongoose plugins:hash password fields",
+  "main": "src/hashedField.js",
+  "dependencies": {
+    "bcrypt": "^0.8.0",
+    "mongoose": "^3.8.20"
+  }
 }
